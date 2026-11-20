@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Café Blasti - Belfaa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="conteneur nav-container">
+    <a class="logo" href="index.html">Café <span>Blasti</span></a>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><a href="index.html" >Accueil</a></li>
+        <li><a href="produits.html" >Notre menu</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero hero-petit">
+    <span class="small">CONTACT</span>
+    <h1>Parlons-<span>nous</span></h1>
+    <p>Une question ? Une commande ? On te répond vite.</p>
+  </section>
+
+  <section class="conteneur contact-section">
+    <div class="menu-title">
+      <h2>Contact</h2>
+      <p>Voici nos coordonnées, et le formulaire pour nous écrire.</p>
+    </div>
+
+    <div class="contact-box">
+      <div class="infos">
+        <h2>Nos coordonnées</h2>
+        <p><strong>Adresse :</strong><br>Café Blasti<br>Belfaa, Maroc</p>
+        <p><strong>Horaires :</strong><br>Ouvert<br>07h00 – 22h00</p>
+        <p><strong>Téléphone / WhatsApp :</strong><br>06 00 00 00 00</p>
+        <a class="wa" href="https://wa.me/212600000000?text=Salam%20Caf%C3%A9%20Blasti">Écrire sur WhatsApp</a>
+      </div>
+
+      <form class="formulaire" action="#" method="post">
+        <label for="nom">Nom</label>
+        <input id="nom" name="nom" type="text" placeholder="Ton nom" required>
+        <label for="tel">Téléphone</label>
+        <input id="tel" name="tel" type="tel" placeholder="06 XX XX XX XX" required>
+        <label for="msg">Message</label>
+        <textarea id="msg" name="message" rows="4" placeholder="Ton message..." required></textarea>
+        <button type="submit">commande</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="conteneur footer-cols">
+    <div class="col">
+      <h3>Adresse</h3>
+      <address><p>Café Blasti</p><p>Belfaa, Maroc</p></address>
+    </div>
+    <div class="col">
+      <h3>Horaires</h3>
+      <p>Ouvert</p><p>07h00 – 22h00</p>
+    </div>
+    <div class="col">
+      <h3>Liens</h3>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="produits.html">Notre menu</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <p class="slogan">Blassti, c’est ta place</p>
+</footer>
+</body>
+</html>
